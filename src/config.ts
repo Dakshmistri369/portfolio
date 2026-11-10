@@ -101,7 +101,7 @@ export const config = {
             title: "Voice Agricultural Advisory (Gujarati)",
             category: "Bilingual Voice-First RAG Platform",
             technologies: "Python, Streamlit, LangChain, Whisper, Supabase (pgvector), PyTorch, Pandas, Hugging Face",
-            image: "/images/FloodSpaces.png",
+            image: "/images/voice_advisory.png",
             description: "Bilingual, voice-first Retrieval-Augmented Generation (RAG) platform that lets Gujarati-speaking farmers query government schemes, live mandi prices, weather forecasts, and crop advisories by voice or text. Features an 8-stage voice and text pipeline combining Whisper STT, LLM reasoning (Qwen2.5 / Llama-3.1), and multi-tier Gujarati TTS (Piper ONNX, Meta MMS, gTTS) with Supabase pgvector.",
             link: "https://github.com/Dakshmistri369"
         }
