@@ -49,7 +49,7 @@ npm run build
 ## 🤝 Connect
 
 - **Developer:** Daksh Mistri
-- **Email:** [dakshmistrii369@gmail.com](mailto:dakshmistrii369@gmail.com)
+- **Email:** [dakshmistri369@gmail.com](mailto:dakshmistri369@gmail.com)
 - **LinkedIn:** [linkedin.com/in/daksh-mistri](https://linkedin.com/in/daksh-mistri)
 - **GitHub:** [github.com/Dakshmistri369](https://github.com/Dakshmistri369)
 - **Phone:** +91 9510902912

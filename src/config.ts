@@ -4,7 +4,7 @@ export const config = {
         fullName: "Daksh Mistri",
         title: "Software Developer",
         phone: "+91 9510902912",
-        email: "dakshmistrii369@gmail.com",
+        email: "dakshmistri369@gmail.com",
         location: "Mehsana, Gujarat, India",
         description: "Software Developer with hands-on experience across full-stack web development, backend architecture, and applied machine learning. Skilled in JavaScript, TypeScript, Python, C#, and the .NET ecosystem, with project experience building AI-powered security tooling, Retrieval-Augmented Generation (RAG) systems, multilingual NLP pipelines, and voice-enabled AI applications alongside REST APIs, microservices, and cloud-based deployments."
     },
@@ -12,7 +12,7 @@ export const config = {
         github: "https://github.com/Dakshmistri369",
         githubUsername: "Dakshmistri369",
         linkedin: "https://linkedin.com/in/daksh-mistri",
-        email: "dakshmistrii369@gmail.com",
+        email: "dakshmistri369@gmail.com",
         phone: "+91 9510902912",
         location: "Mehsana, Gujarat, India"
     },
@@ -107,7 +107,7 @@ export const config = {
         }
     ],
     contact: {
-        email: "dakshmistrii369@gmail.com",
+        email: "dakshmistri369@gmail.com",
         phone: "+91 9510902912",
         github: "https://github.com/Dakshmistri369",
         linkedin: "https://linkedin.com/in/daksh-mistri",
