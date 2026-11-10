@@ -68,13 +68,19 @@ const Contact = () => {
                 {config.contact.email}
               </a>
             </p>
+            <h4>Phone</h4>
+            <p>
+              <a href={`tel:${config.contact.phone}`} data-cursor="disable">
+                {config.contact.phone}
+              </a>
+            </p>
             <h4>Location</h4>
             <p>
-              <span>{config.social.location}</span>
+              <span>{config.contact.location}</span>
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Connect</h4>
             <a
               href={config.contact.github}
               target="_blank"
@@ -82,7 +88,7 @@ const Contact = () => {
               data-cursor="disable"
               className="contact-social"
             >
-              Github <MdArrowOutward />
+              GitHub <MdArrowOutward />
             </a>
             <a
               href={config.contact.linkedin}
@@ -91,34 +97,14 @@ const Contact = () => {
               data-cursor="disable"
               className="contact-social"
             >
-              Linkedin <MdArrowOutward />
+              LinkedIn <MdArrowOutward />
             </a>
             <a
-              href={config.contact.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`mailto:${config.contact.email}`}
               data-cursor="disable"
               className="contact-social"
             >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Facebook <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              Email Direct <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">

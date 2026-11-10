@@ -14,8 +14,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          Experience, Education <span>&</span>
+          <br /> Hackathons
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -34,6 +34,22 @@ const Career = () => {
             </div>
           ))}
         </div>
+
+        {/* Hackathon & Innovation Honors */}
+        {config.achievements && config.achievements.length > 0 && (
+          <div className="career-achievements">
+            <h3>Honors & Hackathon Achievements</h3>
+            <div className="achievements-grid">
+              {config.achievements.map((item, idx) => (
+                <div key={idx} className="achievement-card">
+                  <div className="achievement-badge">🏆 {item.role}</div>
+                  <h4>{item.title}</h4>
+                  <p>{item.venue}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

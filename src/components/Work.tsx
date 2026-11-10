@@ -23,49 +23,52 @@ const Work = () => {
         .getBoundingClientRect().left;
       const rect = box[0].getBoundingClientRect();
       const parentWidth = box[0].parentElement!.getBoundingClientRect().width;
-      let padding: number =
+      const padding: number =
         parseInt(window.getComputedStyle(box[0]).padding) / 2;
-      translateX = rect.width * box.length - (rectLeft + parentWidth) + padding;
+      translateX = Math.max(0, rect.width * box.length - (rectLeft + parentWidth) + padding);
     }
 
     setTranslateX();
 
-    let timeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".work-section",
-        start: "top top",
-        end: `+=${translateX}`,
-        scrub: 1,
-        pin: true,
-        pinSpacing: true,
-        anticipatePin: 1,
-        id: "work",
-        invalidateOnRefresh: true,
-      },
-    });
+    let timeline: gsap.core.Timeline | null = null;
+    if (translateX > 20) {
+      timeline = gsap.timeline({
+        scrollTrigger: {
+          trigger: ".work-section",
+          start: "top top",
+          end: `+=${translateX}`,
+          scrub: 1,
+          pin: true,
+          pinSpacing: true,
+          anticipatePin: 1,
+          id: "work",
+          invalidateOnRefresh: true,
+        },
+      });
 
-    timeline.to(".work-flex", {
-      x: -translateX,
-      ease: "none",
-    });
+      timeline.to(".work-flex", {
+        x: -translateX,
+        ease: "none",
+      });
 
-    // Refresh ScrollTrigger after layout settles
-    ScrollTrigger.refresh();
+      ScrollTrigger.refresh();
+    }
 
     // Clean up
     return () => {
-      timeline.kill();
+      timeline?.kill();
       ScrollTrigger.getById("work")?.kill();
     };
   }, []);
+
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2>
-          My <span>Work</span>
+          Featured <span>Projects</span>
         </h2>
         <div className="work-flex">
-          {config.projects.slice(0, 5).map((project, index) => (
+          {config.projects.map((project, index) => (
             <div className="work-box" key={project.id}>
               <div className="work-info">
                 <div className="work-title">
@@ -85,10 +88,10 @@ const Work = () => {
           {/* See All Works Button */}
           <div className="work-box work-box-cta">
             <div className="see-all-works">
-              <h3>Want to see more?</h3>
-              <p>Explore all of my projects and creations</p>
+              <h3>GitHub Repositories</h3>
+              <p>Explore source code and technical repositories</p>
               <Link to="/myworks" className="see-all-btn" data-cursor="disable">
-                See All Works →
+                View All Details →
               </Link>
             </div>
           </div>

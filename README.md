@@ -1,57 +1,44 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
-
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./video.mp4)
+# 🚀 Daksh Mistri — 3D Developer Portfolio Website
 
 A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
-
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
-
-> Live preview: https://www.redoyanulhaque.me/
 
 ---
 
 ## ✨ Highlights
 
-- **3D / WebGL experience** powered by **Three.js**
-- Smooth animations with **GSAP**
-- Modern **React + TypeScript** codebase
-- Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
+- **Interactive 3D Experience** powered by **Three.js** and WebGL
+- **Kinetic Animations & Scroll Effects** with **GSAP** and **Lenis**
+- **Modern Tech Stack**: React, TypeScript, Vite
+- **Featured Projects**: AgentGuard AI and Voice-Based Agricultural Advisory System (Gujarati)
+- **Fast & Fully Responsive UI** across desktop, tablet, and mobile
 
 ---
 
 ## 🧰 Tech Stack
 
-- **React**
-- **TypeScript**
-- **Three.js / WebGL**
-- **GSAP**
-- **HTML / CSS / JavaScript**
+- **Frontend:** React, TypeScript, Three.js, GSAP, HTML5, CSS3, Bootstrap, Tailwind
+- **Backend:** Node.js, Express.js, FastAPI, ASP.NET Core, .NET Framework
+- **Databases & Cloud:** Supabase, PostgreSQL, MongoDB, MySQL, Redis, AWS, Azure, Firebase
+- **AI & Security:** RAG, LLM Integration, TensorFlow, Scikit-learn, Semgrep, Bandit, OSV
+- **Tooling:** Vite, Git, GitHub, Docker, Vercel
 
 ---
 
 ## 🚀 Getting Started
 
-### 1) Clone
-
-```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
-cd portfolio-website
-```
-
-### 2) Install
+### 1) Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3) Run locally
+### 2) Run Locally
 
 ```bash
 npm run dev
 ```
 
-### 4) Build
+### 3) Build for Production
 
 ```bash
 npm run build
@@ -59,38 +46,14 @@ npm run build
 
 ---
 
-## 🧩 Customize (Quick Guide)
-
-Typical things you’ll want to update:
-
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
-
----
-
-## ⭐ Support
-
-If you found this useful:
-
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
-
----
-
 ## 🤝 Connect
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
-
----
-
-## 🏷️ Recommended GitHub Topics (add in repo settings)
-
-Add these topics to improve GitHub search visibility:
-
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
+- **Developer:** Daksh Mistri
+- **Email:** [dakshmistrii369@gmail.com](mailto:dakshmistrii369@gmail.com)
+- **LinkedIn:** [linkedin.com/in/daksh-mistri](https://linkedin.com/in/daksh-mistri)
+- **GitHub:** [github.com/Dakshmistri369](https://github.com/Dakshmistri369)
+- **Phone:** +91 9510902912
+- **Location:** Mehsana, Gujarat, India
 
 ---
 
