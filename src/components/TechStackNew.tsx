@@ -74,18 +74,8 @@ const techStack: TechItem[][] = [
 const TechStackNew = () => {
   return (
     <div className="techstack-new">
-      {/* Video Background */}
+      {/* Atmospheric Background */}
       <div className="techstack-video-container">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="techstack-video"
-        >
-          <source src="/video/video.webm" type="video/webm" />
-        </video>
-        {/* Dark Overlay */}
         <div className="techstack-overlay"></div>
       </div>
 
