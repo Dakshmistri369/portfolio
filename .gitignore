@@ -24,6 +24,10 @@ dist-ssr
 *.sw?
 .npmrc
 
-backup/
+# Secrets and environment files
 .env
+.env.*
+*.env
+
+backup/
 redoxchess-engine/
